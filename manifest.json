@@ -8,6 +8,9 @@
   "browser_action": {
     "default_icon": "icon.png",
     "default_popup": "popup.html"
-  }
-  
+  },
+  "content_security_policy": "script-src 'self' https://query.yahooapis.com/; object-src 'self' " ,
+  "permissions": [
+          "http://*/"
+        ]
 }
